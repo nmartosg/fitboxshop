@@ -14,15 +14,13 @@ echo "
   
   require '..\shopNoe\vendor\autoload.php';
 
-  \Stripe\Stripe::setApiKey("sk_test_51Ir2M4FV4okoRfYFxWgNv0QUyIKLzhLWbsmSUzutZATexLVkRGvaZL5OAJDxMOn8cWdAO1utSlJaeQzorEBxAYdt00SK6p51hS");
 
-  $token = $_POST["stripeToken"];
-
-  $charge = \Stripe\Charge::create([
-    "amount" => $precio,
-    "currency" => "eur",
-    "description" => "shopNoe",
-    "source" => $token
+  Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+  Stripe\Charge::create ([
+          "amount" => $precio,
+          "currency" => "eur",
+          "source" => $request->stripeToken,
+          "description" => "Make payment and chill." 
   ]);
 
   echo "<pre>", print_r($charge), "</pre>";

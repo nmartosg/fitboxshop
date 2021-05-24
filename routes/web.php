@@ -67,3 +67,8 @@ Route::get('/gestion', [App\Http\Controllers\GestionController::class, 'index'])
 
 Route::get('/error', [App\Http\Controllers\HomeController::class, 'error'])->name('error');
 
+//PAGOS
+
+Route::get('/payment', [App\Http\Controllers\PaymentController::class, 'index']);
+
+Route::post('/transaction', [App\Http\Controllers\PaymentController::class, 'makePayment'])->name('make-payment');
