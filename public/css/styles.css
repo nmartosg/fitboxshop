@@ -1,0 +1,86 @@
+#navbarMovil{
+  margin-left:100px;
+}
+
+button:hover, button:focus {
+    background: gray;
+    outline: 0;
+}
+
+footer p{
+  color:white;
+  font-family:Helvetica; 
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+  color: white;
+  font-size: 40px;     
+  padding-right: 20px;
+}
+
+
+/* cuenta css */
+.nav-tabs .nav-item a:not(.active){
+  background-color: black;
+}
+.nav-tabs{
+  border-bottom:0px;
+} 
+
+/* LOGO EN MOVIMIENTO */
+.imagen-movimiento {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+  @keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 25%
+  }
+
+  to {
+      margin-left: 0%;
+      width: 25%;
+  }
+}
+
+/* gestion tablas */
+@media  (max-width: 600px) {
+  #tablas-movil{
+    width: 300%;
+  }
+}
+
+@media  (min-width: 900px) {
+  #tablas-movil{
+    width: 100%;
+  }
+}
+
+/* clientes tablas */
+@media  (max-width: 600px) {
+  #tablas-movil-clientes{
+    width: 250%;
+  }
+}
+
+@media  (min-width: 900px) {
+  #tablas-movil-clientes{
+    width: 100%;
+  }
+}
+
+/* producto tablas */
+@media  (max-width: 600px) {
+  #movil-tabla-producto{
+    width: 250%;
+  }
+}
+
+@media  (min-width: 900px) {
+  #movil-tabla-producto{
+    width: 100%;
+  }
+}
+
+
