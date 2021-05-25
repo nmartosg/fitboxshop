@@ -146,7 +146,7 @@
         
         <h5 style="border: 0.01px solid gray;  padding:8px;">PREGUNTAS SOBRE PRODUCTOS</h5>
         <details style="padding: 5px; margin-bottom:5px; width:100%;">
-            <summary style="font-size: 14px; cursor: pointer;">¿Qué debo hacer si quiero realizar una consulta sobre algun productos?</summary>
+            <summary style="font-size: 14px; cursor: pointer;">¿Qué debo hacer si quiero realizar una consulta sobre algunos productos?</summary>
             <p style="color: white; padding-left:0.7%; font-size: 12px;">Si quiere relizar una consulta pongase en contacto a través de la <a href="{{ url('/contacto') }}"> página de contacto </a> o bien envianos un correo electrónico a fitboxshopp@gmail.com</p>
         </details>
         <details style="padding: 5px; margin-bottom:5px; width:100%;">
