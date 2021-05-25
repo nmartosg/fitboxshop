@@ -164,7 +164,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (1, '2014_10_12_000000_create_users_table', 1),
 (2, '2019_08_19_000000_create_failed_jobs_table', 1),
 (3, '2014_10_12_100000_create_password_resets_table', 2),
-(4, '2020_04_28_165047_create_personas', 3);
+(4, '2021_04_28_165047_create_personas', 3);
 
 -- --------------------------------------------------------
 
