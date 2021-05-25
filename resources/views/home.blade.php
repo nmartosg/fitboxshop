@@ -177,7 +177,7 @@
         <div class="col-sm-12">
             <br>
             <p style="color:white;
-                        font-family: Helvetica;
+                        font-family: 'Nunito';
                         float:left; 
                         margin-top: 0.5rem;"> © 2021 | Web created by Noelia Martos García with Laravel </p>
             
