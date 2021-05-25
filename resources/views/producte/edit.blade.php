@@ -78,7 +78,23 @@
                   <div class="form-group">
                     <label class="text-dark"> <b>IMAGEN DEL PRODUCTO: </b></label>
                     <input type="text"name="img" id="img" class="form-control input-sm" value="{{$productes->img}}">
-                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 colmd-12">
+                <div class="form-group">
+                  <label class="text-dark"><b>PRODUCTOS EN CESTA:</b></label> 
+                  <input type="text" name="productoCesta" id="productoCesta" class="form-control input-sm" placeholder="Productos en cesta, 0." value="{{$productes->productoCesta}}">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 colmd-12">
+                <div class="form-group">
+                  <label class="text-dark"><b>COMPARADOS:</b></label> 
+                  <input type="text" name="comprado" id="comprado" class="form-control input-sm" placeholder="Comprados, 0" value="{{$productes->comprado}}">
+                </div>
               </div>
             </div>
               <div class="row">
