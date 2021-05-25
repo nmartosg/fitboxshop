@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
@@ -183,15 +183,6 @@ CREATE TABLE `password_resets` (
 --
 
 INSERT INTO `password_resets` (`email`, `token`, `created_at`) VALUES
-('milajordi97@gmail.com', '$2y$10$y0.fuzttNlqyU6H34JbQTu0rHiopLFoTTdRoz98/FbZeyTa/EVzJ.', '2020-05-10 13:49:51'),
-('test@test.com', '$2y$10$xkjmfR9sm4u9heLFdd6DTeNjPGyTZzWd/JABJKXN/xkQjZ4BPXfCG', '2020-05-14 10:08:21'),
-('milajordi97@gmail.com', '$2y$10$y0.fuzttNlqyU6H34JbQTu0rHiopLFoTTdRoz98/FbZeyTa/EVzJ.', '2020-05-10 13:49:51'),
-('test@test.com', '$2y$10$xkjmfR9sm4u9heLFdd6DTeNjPGyTZzWd/JABJKXN/xkQjZ4BPXfCG', '2020-05-14 10:08:21'),
-('noeliamartos2001@gmail.com', '$2y$10$/iFBupvhLITAHvJ3txswBuEMvIDv8M44fCh7nR16f8H0.3o4/yFn.', '2021-05-11 11:35:45'),
-('milajordi97@gmail.com', '$2y$10$y0.fuzttNlqyU6H34JbQTu0rHiopLFoTTdRoz98/FbZeyTa/EVzJ.', '2020-05-10 13:49:51'),
-('test@test.com', '$2y$10$xkjmfR9sm4u9heLFdd6DTeNjPGyTZzWd/JABJKXN/xkQjZ4BPXfCG', '2020-05-14 10:08:21'),
-('milajordi97@gmail.com', '$2y$10$y0.fuzttNlqyU6H34JbQTu0rHiopLFoTTdRoz98/FbZeyTa/EVzJ.', '2020-05-10 13:49:51'),
-('test@test.com', '$2y$10$xkjmfR9sm4u9heLFdd6DTeNjPGyTZzWd/JABJKXN/xkQjZ4BPXfCG', '2020-05-14 10:08:21'),
 ('noeliamartos2001@gmail.com', '$2y$10$/iFBupvhLITAHvJ3txswBuEMvIDv8M44fCh7nR16f8H0.3o4/yFn.', '2021-05-11 11:35:45');
 
 -- --------------------------------------------------------
@@ -457,3 +448,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
