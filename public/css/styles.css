@@ -84,3 +84,41 @@ footer p{
 }
 
 
+
+/* buscador input */
+@media  (max-width: 600px) {
+  #buscadorr{
+    margin-top: -15px;
+    margin-bottom: 2%;
+    width: 75%;
+    }
+}
+
+@media  (min-width: 900px) {
+  #buscadorr{
+    margin-top:-15px;
+    width:450px;
+  }
+}
+
+
+/* boton buscar */
+@media  (max-width: 600px) {
+  #buscadorBoton{
+    width: 85px;
+    height: 40px;
+    float: right;
+    margin-top: -46px;
+    }
+}
+
+@media  (min-width: 900px) {
+  #buscadorBoton{
+    width: 85px; 
+    height: 40px; 
+    float: right; 
+    margin-top:-39px;
+  }
+}
+
+

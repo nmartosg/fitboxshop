@@ -30,8 +30,10 @@
                 <!-- BUSCADOR DISCOS -->
                 <form method="GET" action="" onSubmit="return validarForm(this)">
                   <br><br>
-                  <input type="text" class="form-control" placeholder="Buscar Discos" name="buscadorDiscos" style="margin-top:-15px; width:450px;">
-                  <input type="submit" value="BUSCAR" name="buscar" class="form-control"  style="width: 85px; height: 40px; float: right; margin-top:-39px;"></input>
+                  <input id="buscadorr" type="text" class="form-control" placeholder="Buscar Discos" name="buscadorDiscos" >
+
+
+                  <input id="buscadorBoton"type="submit" value="BUSCAR" name="buscar" class="form-control" ></input>
                 </form>
 
               <script type="text/javascript">

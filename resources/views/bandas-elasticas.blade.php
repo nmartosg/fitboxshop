@@ -30,8 +30,8 @@
                 <!-- BUSCADOR BANDAS ELASTICAS -->
                 <form method="GET" action="" onSubmit="return validarForm(this)">
                   <br><br>
-                    <input id="buscadorVersionMovil" type="text" class="form-control" placeholder="Buscar Bandas Elasticas" name="buscarBandas" style="margin-top:-15px; width:450px;">
-                    <input type="submit" value="BUSCAR" name="buscar" class="form-control" style="width: 85px; height: 40px; float: right; margin-top:-39px;"></input>
+                    <input id="buscadorr" type="text" class="form-control" placeholder="Buscar Bandas Elasticas" name="buscarBandas" >
+                    <input id="buscadorBoton" type="submit" value="BUSCAR" name="buscar" class="form-control" ></input>
                   </form>
 
                   <script type="text/javascript">

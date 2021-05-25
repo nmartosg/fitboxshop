@@ -31,8 +31,8 @@
               <div class="col-md-6">
                 <!-- BUSCADOR BARRAS -->
                 <form method="GET" action="" onSubmit="return validarForm(this)">
-                  <input type="text" class="form-control" placeholder="Buscar Barras" name="buscadorProducto"  style="margin-top:-15px; width:450px;">
-                  <input type="submit" value="BUSCAR" name="buscar"class="form-control" style="width: 85px; height: 40px; float: right; margin-top:-39px;"></input>
+                  <input id="buscadorr" type="text" class="form-control" placeholder="Buscar Barras" name="buscadorProducto">
+                  <input id="buscadorBoton" type="submit" value="BUSCAR" name="buscar"class="form-control"></input>
                 </form>
 
                 <script type="text/javascript">
