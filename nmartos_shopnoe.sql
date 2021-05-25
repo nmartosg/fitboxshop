@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-05-2021 a las 16:41:45
+-- Tiempo de generación: 25-05-2021 a las 18:21:28
 -- Versión del servidor: 10.4.18-MariaDB
 -- Versión de PHP: 7.3.27
 
@@ -50,7 +50,8 @@ INSERT INTO `carro` (`id`, `cantidad`, `preu`, `idprod`, `iduser`) VALUES
 (17, 1, 0, 19, 9),
 (18, 0, 0, 20, 9),
 (20, 0, 0, 14, 15),
-(21, 0, 0, 17, 9);
+(21, 0, 0, 17, 9),
+(22, 0, 0, 14, 9);
 
 -- --------------------------------------------------------
 
@@ -92,12 +93,12 @@ CREATE TABLE `comandas` (
 
 INSERT INTO `comandas` (`id`, `precioTotal`, `estadoPedido`) VALUES
 (1, '160', 0),
-(2, '4.99', 0),
-(3, '4.99', 1),
-(4, '4.99', 1),
-(5, '4.99', 1),
-(6, '4.99', 1),
-(7, '9.93', 1),
+(2, '90', 0),
+(3, '51', 1),
+(4, '24', 1),
+(5, '488', 1),
+(6, '24', 1),
+(7, '21', 1),
 (26, '11', 1),
 (29, '245', 1),
 (31, '123', 1),
@@ -122,9 +123,9 @@ CREATE TABLE `comandas_productes` (
 INSERT INTO `comandas_productes` (`fid_Comanda`, `fid_Producte`, `cantidad`) VALUES
 (1, 18, 4),
 (2, 19, 3),
-(3, 24, 1),
+(3, 23, 1),
 (4, 14, 2),
-(5, 24, 2),
+(5, 12, 2),
 (6, 14, 2),
 (7, 13, 4);
 
@@ -243,7 +244,7 @@ INSERT INTO `productes` (`id`, `nom`, `tipos`, `descripcion`, `precio`, `img`, `
 (16, 'BANDA VERDE', 'Bandas', 'Fuerte.', '16.00', '../imatges/bandas/verde.JPG', 0, 0),
 (17, 'BANDA NEGRA', 'Bandas', 'Muy fuerte.', '18.00', '../imatges/bandas/negra.JPG', 1, 0),
 (18, 'BANDA MORADA', 'Bandas', 'Ultrafuerte.', '20.00', '../imatges/bandas/lila.JPG', 1, 0),
-(19, 'Discos 0.5 kg', 'Discos', 'Pareja de discos Change de 0.5 kg (IWF)', '30.00', '../imatges/discos/0.5kg.JPG', 4, 0),
+(19, 'Discos 0.5 kg', 'Discos', 'Pareja de discos Change de 0.5 kg (IWF)', '30.00', '../imatges/discos/0.5kg.JPG', 5, 0),
 (20, 'Discos 1 kg', 'Discos', 'Pareja de discos Change de 1 kg (IWF)', '35.00', '../imatges/discos/1kg.JPG', 1, 0),
 (21, 'Discos 1.5 kg', 'Discos', 'Pareja de discos Change de 1.5 kg (IWF)', '41.00', '../imatges/discos/1.5kg.JPG', 0, 0),
 (22, 'Discos 2 kg', 'Discos', 'Pareja de discos Change de 2 kg (IWF)', '45.00', '../imatges/discos/2kg.JPG', 2, 0),
@@ -390,7 +391,7 @@ ALTER TABLE `users_comandas`
 -- AUTO_INCREMENT de la tabla `carro`
 --
 ALTER TABLE `carro`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT de la tabla `clients`
@@ -456,4 +457,3 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
